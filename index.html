@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pokemon-container">
+        <div class="pokemon" id="charmander">
+            <h2>Charmander</h2>
+            <div class="info"></div>
+            <button onclick="flare.aanval()">Aanval</button>
+        </div>
+        
+        <div class="pokemon" id="squirtle">
+            <h2>Squirtle</h2>
+            <div class="info"></div>
+            <button onclick="splash.aanval()">Aanval</button>
+        </div>
+        
+        <div class="pokemon" id="bulbasaur">
+            <h2>Bulbasaur</h2>
+            <div class="info"></div>
+            <button onclick="leafy.aanval()">Aanval</button>
+        </div>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="pokemon.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
